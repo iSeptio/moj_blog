@@ -1,39 +1,20 @@
 <template>
-  <div v-editable="blok" class="feature util__flex-eq">
-
-    <div id="phone">
+  
+<div id="phone">
       <img src="~/assets/PHONE.svg" /><img src="~/assets/RESPONSIVE.svg" />
 </div>
-    <h1>{{ blok.name }} </h1>
-    <div class="feature__description">
-      {{ blok.description }}
-    </div>
-
-  </div>
 </template>
-
 <script>
 export default {
   props: ['blok']
 }
 </script>
 
+
 <style lang="scss">
-.feature {
-  text-align: center;
-  padding: 30px 10px 100px;
-}
-
-.feature__icon {
-  max-width: 80px;
-}
-
-
 #phone {
-  position:relative;
+  position: relative;
   width: 80px;
-  text-align:left;
-  padding: 5px;
 }
 
 #phone :first-child {

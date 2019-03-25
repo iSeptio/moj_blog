@@ -7,8 +7,10 @@ import Feature from '~/components/Feature.vue'
 import Feature2 from '~/components/Feature2.vue'
 import Slide from '~/components/Slide.vue'
 import SitemapItem from '~/components/SitemapItem.vue'
+import Animation from "~/components/Animation.vue"
 
 Vue.use(BootstrapVue)
+Vue.component('responsive-animation', Animation)
 Vue.component('page', Page)
 Vue.component('teaser', Teaser)
 Vue.component('grid', Grid)

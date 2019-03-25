@@ -4,7 +4,9 @@
     <main id="main" role="main">
       <nuxt/>
     </main>
+
     <bottom-footer/>
+    
   </div>
 </template>
 
@@ -12,10 +14,12 @@
 import TopHeader from '~/components/TopHeader.vue'
 import BottomFooter from '~/components/BottomFooter.vue'
 
+
 export default {
   components: {
     TopHeader,
     BottomFooter
+
   }
 }
 </script>
